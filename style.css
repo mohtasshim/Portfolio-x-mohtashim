@@ -1,0 +1,140 @@
+
+     *{
+    margin: 1%;
+    padding: 0px;
+    box-sizing: 0px;
+     background-color: rgb(158, 163, 168);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* Tablet devices */
+@media (max-width: 1024px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 48%;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+}
+
+.body{
+    background-color: rgb(158, 163, 168);
+}
+.me{
+    margin-left: 65%;
+    margin-top: -4%;
+   
+    color: aqua;
+}
+.btn{
+    border: 3px solid black;
+    background-color: rgb(240, 240, 240);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 8px
+    
+    ;
+}
+.link{
+    text-decoration: none;
+  color: rgb(5, 20, 15);
+  font-family: sans-serif;
+  
+   
+}
+.portfolio{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+
+.img{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 16px;
+    width: 90%
+    
+    
+
+    
+
+}
+.hobies{
+    font-size: 42px;
+    margin-left:10% ;
+    text-decoration: line-through;
+    text-decoration: underline;
+}
+
+.my{
+    text-align: start;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+.hob{
+    border-radius: 20px;
+    border: 4px solid black;
+    height: 400px;
+   
+
+}
+ .image1{
+     border-radius: 20px;
+    border: 4px solid black;
+    width: 800px;
+ }
+ .table{
+    border: 2px solid black;
+    min-height: 200px;
+    width: 200px;
+ }
+  table {
+  width: 100%;
+   border-collapse: collapse; Merges adjacent cell borders into a single line }
+
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;              /* Adds space inside the cells for readability 
+}
+
+ tr:nth-child(even) {
+  background-color: #f2f2f2; /* Creates a clean zebra-striping effect */
+}
+
+.taable{
+    font-size: 18px;
+    font-family: sens-serif;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-radius: 10px;
+}   
